@@ -28,18 +28,23 @@ MNMOS_1 Y A N_1 GND NMOS W=270n L=180n AS=243f PS=2.34u AD=243f PD=2.34u $ $x=-2
 MNMOS_2 N_1 B GND GND NMOS W=270n L=180n AS=243f PS=2.34u AD=243f PD=2.34u $ $x=-200 $y=-1000 $w=400 $h=600
 MPMOS_1 Y B Vdd Vdd PMOS W=810n L=180n AS=729f PS=3.42u AD=729f PD=3.42u $ $x=500 $y=700 $w=400 $h=600
 MPMOS_2 Y A Vdd Vdd PMOS W=810n L=180n AS=729f PS=3.42u AD=729f PD=3.42u $ $x=-700 $y=700 $w=400 $h=600
-vdd vdd Gnd 1.8
+Vdd Vdd Gnd 1.8
 VA A Gnd pulse(0 1.8 0n 0.1n 0.1n 5n 10n)
 VB B Gnd pulse(0 1.8 2.5n 0.1n 0.1n 5n 10n)
-.power vdd
+
+***Power Consumption***
+.power Vdd
+
+***Delay***
 .measure tran delayA trig V(A) val=0.9 fall=1 targ V(Y) val=0.9 rise=1
 .measure tran delayB trig V(B) val=0.9 rise=1 targ V(Y) val=0.9 fall=1
+
+
+
+********* Simulation Settings - Analysis Section *********
 .tran 0.1n 40n
+********* Simulation Settings - Additional SPICE Commands *********
 .print tran V(A) V(B) V(Y)
 .end
-********* Simulation Settings - Analysis Section *********
-
-********* Simulation Settings - Additional SPICE Commands *********
-
 
 
