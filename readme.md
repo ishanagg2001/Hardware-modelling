@@ -23,3 +23,4 @@ Using a **Testbench** to verify the functionality of the Design coded in Verilog
 #### **Requirement** - *The input and output need to be connected to the testbench.*
 
 ### What is verilog ?
+>*Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems.*
