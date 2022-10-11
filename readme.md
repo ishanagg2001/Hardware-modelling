@@ -26,4 +26,4 @@ Using a **Testbench** to verify the functionality of the Design coded in Verilog
 >*Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems.*
 
 ### What is VHDL ?
->*The VHSIC Hardware Description Language (VHDL) is a hardware description language (HDL) that can model the behavior and structure of digital systems at multiple levels of abstraction*
+>*The VHSIC Hardware Description Language (VHDL) is a hardware description language (HDL) that can model the behavior and structure of digital systems at multiple levels of abstraction, ranging from the system level down to that of logic gates*
