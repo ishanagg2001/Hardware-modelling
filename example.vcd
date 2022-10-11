@@ -1,0 +1,77 @@
+$date
+	Sat Jul  2 00:36:17 2022
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! Y $end
+$var reg 1 " A $end
+$var reg 1 # B $end
+$var reg 1 $ C $end
+$var reg 1 % D $end
+$var reg 1 & E $end
+$var reg 1 ' F $end
+$scope module DUT $end
+$var wire 1 " A $end
+$var wire 1 # B $end
+$var wire 1 $ C $end
+$var wire 1 % D $end
+$var wire 1 & E $end
+$var wire 1 ' F $end
+$var wire 1 ! Y $end
+$var wire 1 ( t1 $end
+$var wire 1 ) t2 $end
+$var wire 1 * t3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+x*
+x)
+x(
+x'
+x&
+x%
+x$
+x#
+x"
+x!
+$end
+#5
+0'
+0&
+1%
+0$
+0#
+1"
+#6
+1*
+1(
+#7
+0)
+#8
+1!
+#10
+1$
+0"
+#12
+1)
+#13
+0!
+#15
+0$
+1"
+#17
+0)
+#18
+1!
+#20
+1'
+#21
+0*
+#25
