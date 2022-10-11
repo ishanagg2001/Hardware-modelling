@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design CMOS_inverter -cell CMOS_inverter -type schematic -newwindow
+window move -left 130 -top 130 -width 942 -height 383 -undock -max 
+window fit -x0 -2431 -y0 -753 -x1 2334 -y1 1535 -units iu
+workspace dockinglayout load -file dockinglayout.xml
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8
