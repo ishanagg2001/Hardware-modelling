@@ -31,3 +31,9 @@ Using a **Testbench** to verify the functionality of the Design coded in Verilog
 
 ### What is Tannner ?
 >*Tanner EDA is a suite of tools for the design of integrated circuits. These tools allow you to enter. schematics, perform SPICE simulations, do physical design (i.e., chip layout), and perform design rule. checks (DRC) and layout versus schematic (LVS) checks.*
+
+### How do you install Tanner?
+>*Open your downloads folder and double click on the application file you just downloaded.
+Select Install Products and keep the default download location and press Next.
+Both products should be slected. ...
+Accept the License Agreement and Click Install.*
