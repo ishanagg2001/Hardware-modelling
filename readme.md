@@ -28,3 +28,6 @@ Using a **Testbench** to verify the functionality of the Design coded in Verilog
 
 ### What is VHDL ?
 >*The VHSIC Hardware Description Language (VHDL) is a hardware description language (HDL) that can model the behavior and structure of digital systems at multiple levels of abstraction, ranging from the system level down to that of logic gates, for design entry, documentation, and verification purposes.*
+
+### What is Tannner ?
+>*Tanner EDA is a suite of tools for the design of integrated circuits. These tools allow you to enter. schematics, perform SPICE simulations, do physical design (i.e., chip layout), and perform design rule. checks (DRC) and layout versus schematic (LVS) checks.*
