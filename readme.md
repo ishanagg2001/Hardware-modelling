@@ -22,8 +22,9 @@ Using a **Testbench** to verify the functionality of the Design coded in Verilog
 
 #### **Requirement** - *The input and output need to be connected to the testbench.*
 
-### What is verilog ?
+### What is Verilog ?
 >*Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems.*
+>*Verilog is intended to be used for verification through simulation, for timing analysis, for test analysis (testability analysis and fault grading) and for logic synthesis.*
 
 ### What is VHDL ?
 >*The VHSIC Hardware Description Language (VHDL) is a hardware description language (HDL) that can model the behavior and structure of digital systems at multiple levels of abstraction, ranging from the system level down to that of logic gates, for design entry, documentation, and verification purposes.*
