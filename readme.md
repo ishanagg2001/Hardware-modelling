@@ -24,3 +24,5 @@ Using a **Testbench** to verify the functionality of the Design coded in Verilog
 
 ### What is verilog ?
 >*Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems.*
+
+### What is VHDL ?
