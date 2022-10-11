@@ -21,3 +21,5 @@ Using a **Testbench** to verify the functionality of the Design coded in Verilog
 - a monitor, which captures or analyze the output of DUT.
 
 #### **Requirement** - *The input and output need to be connected to the testbench.*
+
+### What is verilog ?
