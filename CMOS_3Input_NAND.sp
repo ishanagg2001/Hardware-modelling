@@ -36,6 +36,8 @@ VC C_In Gnd Pulse(0 1.8 3n 0.1n 0.1n 5n 10n)
 .measure tran DelayA trig V(A) val=0.9 rise=1 targ V(Y) val=0.9 fall=1
 .measure tran DelayB trig V(B) val=0.9 fall=1 targ V(Y) val=0.9 rise=1
 .measure tran DelayC trig V(C_In) val=0.9 fall=1 targ V(Y) val=0.9 rise=1
+
+********* Simulation Settings - Additional SPICE Command *********
 .print V(A) V(B) V(C_In) V(Y)
 .end
 
