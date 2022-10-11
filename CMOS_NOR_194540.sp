@@ -31,15 +31,19 @@ M4 Y B 1 Vdd PMOS l=1.8e-007 w=8.1e-007 ad=4.0095e-013 as=2.5515e-013 pd=2.61e-0
 vdd vdd Gnd_ 1.8
 VA A Gnd_ pulse(0 1.8 0n 0.1n 0.1n 5n 10n)
 VB B Gnd_ pulse(0 1.8 2.5n 0.1n 0.1n 5n 10n)
+***Find Power***
 .power vdd
+
+***Measure Propagation Delay***
 .measure tran delayA trig V(A) val=0.9 rise=1 targ V(Y) val=0.9 fall=1
 .measure tran delayB trig V(B) val=0.9 fall=1 targ V(Y) val=0.9 rise=1
-.tran 0.1n 40n
-.print tran V(A) V(B) V(Y)
-.end
+
+
 
 ********* Simulation Settings - Analysis Section *********
+.tran 0.1n 40n
 
 ********* Simulation Settings - Additional SPICE Commands *********
-
+.print tran V(A) V(B) V(Y)
+.end
 
