@@ -72,7 +72,7 @@ int main()
     cin >> t;
     while(t--)
     {
-        cout << "Hello_World";
+        cout<<"Play Tic Tac Toe";
         cout << endl;
     }
     return 0;
