@@ -28,13 +28,11 @@ MPMOS_1 Out In Vdd Vdd PMOS W=810n L=180n AS=729f PS=3.42u AD=729f PD=3.42u $ $x
 
 Vdd Vdd Gnd 5
 Vin In Gnd
-.dc Vin 0 5 0.1
-.print dc V(In) V(Out)
- 
 
 ********* Simulation Settings - Analysis Section *********
+.dc Vin 0 5 0.1
 
 ********* Simulation Settings - Additional SPICE Commands *********
-
+.print dc V(In) V(Out)
 .end
 
